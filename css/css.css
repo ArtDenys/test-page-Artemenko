@@ -1,0 +1,1007 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arvo:700');
+
+@font-face {
+font-family: 'Avenir LT Std 45 Book';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book'), url('fonts/AvenirLTStd-Book.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 85 Heavy Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 85 Heavy Oblique'), url('fonts/AvenirLTStd-HeavyOblique.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 95 Black';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 95 Black'), url('fonts/AvenirLTStd-Black.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Avenir LT Std 95 Black Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 95 Black Oblique'), url('fonts/AvenirLTStd-BlackOblique.woff') format('woff');
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    overflow-x: hidden;}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+header h1 {
+	text-align: center;
+	color:#212121;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26pt;
+	font-weight: 2pt;
+
+}
+header h3 {
+	text-align: center;
+	color: #888888;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16pt;
+	font-weight: 2pt;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #3397c9;
+    border-color: #3397c9;
+}
+.jumbotron {
+	background-color: #fafafa;
+	margin: 0;
+	display: contents;
+}
+.row{
+	background-color: #fafafa;
+	margin: 0;
+	width: 100%;
+}
+
+.jumbotron h3{
+	font-family: 'Arvo', serif;
+}
+.list-group-item {
+	background-color: inherit;
+	border: none;
+}
+.blue{
+color: #00baff;
+}
+.green{
+color: #82cd00;
+}
+.yellow{
+	color: #ffe402;
+}
+.gray{
+	color: #93f5fb;
+}
+
+.right{
+	text-align:  right;
+}
+.aver_b{
+font-family: 'Avenir LT Std 95 Black';
+}
+.aver_b_ {
+font-family: 'Avenir LT Std 95 Black';
+}
+.aver_li {
+    font-family: 'Avenir LT Std 45 Book';
+    color: #e1e1e1;
+}
+.aver_li:hover {
+	color:#888888;
+
+}
+a li:hover:focus{
+	text-decoration: none;
+	color: #e1e1e1;
+}
+.button_dis{
+	padding: 10px 16px;
+    font-size: 18pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+    background-color: #3397c9;
+    border-color: #3397c9;
+}
+
+a li:hover{
+	text-decoration: none;
+	color: #e1e1e1;
+}
+
+a {
+	text-decoration: none;
+	color: #e1e1e1;
+}
+.aver_li a:hover{
+	color:#888888;
+	text-decoration: none;
+}
+.jumbotron h4 {
+	font-size: 24pt;
+}
+.open_s{
+font-family: 'Open Sans', sans-serif;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 13pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+	.jumbotron {
+	height: 397px;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 10px;
+    font-weight: 200;
+}
+.row {
+    margin-top: 25px;
+    width: 100%;
+    /* margin-right: 42px; */
+}
+.iphone {
+    width: 100px;
+    padding-top: 0px;
+    /* margin-left: 0; */
+    margin-left: 0;
+    margin-right: 0px;
+    /* padding-right: 113px; */
+}
+.open_s{
+	font-size: 14pt;
+}
+.aver_b_ {
+    font-size: 8pt;
+}
+
+.blue {
+    font-size: 9pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+header h1 {
+    font-size: 10.5pt;
+}
+header h3 {
+    font-size: 8pt;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 8pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+    margin-left: -150px;
+    padding-left: 5px;
+}
+img {
+    vertical-align: middle;
+    margin-top: -5px;
+    /* margin-right: 39px; */
+    margin-right: 0px;
+    float: right;
+    width: 20%;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.aver_li {
+    font-size: 8pt;
+}
+.corect {
+    margin-left: -25px;
+    margin-top: -10px;
+}
+.jumbotron h4 {
+    font-size: 12pt;
+    margin-left: 15px;
+}
+
+.green {
+    font-size: 9pt;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+
+.corect_1 {
+    margin-left: -25px;
+    margin-top: 15px;
+}
+
+
+}
+
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+@media screen and (min-width: 375px) {
+	.jumbotron {
+	height: 397px;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 10px;
+    font-weight: 200;
+}
+.row {
+    margin-top: 25px;
+    width: 100%;
+    /* margin-right: 42px; */
+}
+.iphone {
+    width: 100px;
+    padding-top: 0px;
+    /* margin-left: 0; */
+    margin-left: 0;
+    margin-right: 0px;
+    /* padding-right: 113px; */
+}
+.open_s{
+	font-size: 14pt;
+}
+.aver_b_ {
+    font-size: 8pt;
+}
+
+.blue {
+    font-size: 9pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+header h1 {
+    font-size: 10.5pt;
+}
+header h3 {
+    font-size: 8pt;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 8pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+    margin-left: -150px;
+    padding-left: 5px;
+}
+img {
+    vertical-align: middle;
+    margin-top: -5px;
+    /* margin-right: 39px; */
+    margin-right: 2px;
+    float: right;
+    width: 16%;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.aver_li {
+    font-size: 8pt;
+}
+.corect {
+    margin-left: -25px;
+    margin-top: -35px;
+}
+.jumbotron h4 {
+    font-size: 12pt;
+    margin-left: 15px;
+}
+
+.green {
+    font-size: 9pt;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+
+.corect_1 {
+    margin-left: -25px;
+    margin-top: 20px;
+}
+
+
+}
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+@media screen and (min-width:425px) {
+	.jumbotron {
+	height: 397px;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 10pt;
+    font-weight: 200;
+}
+.jumbotron h4 {
+    font-size: 16pt;
+    margin-left: 15px;
+}
+.row {
+    margin-top: 25px;
+    width: 100%;
+    /* margin-right: 42px; */
+}
+.iphone {
+    width: 120px;
+    padding-top: 0px;
+    /* margin-left: 0; */
+    margin-left: 0;
+    margin-right: 0px;
+    /* padding-right: 113px; */
+}
+.open_s{
+	font-size: 14pt;
+}
+.aver_b_ {
+    font-size: 10pt;
+}
+.aver_li {
+    font-size: 10pt;
+}
+header h1 {
+    font-size: 13.5pt;
+}
+header h3 {
+    font-size: 10pt;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 8pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+    margin-left: -150px;
+    padding-left: 5px;
+}
+img {
+    vertical-align: middle;
+    margin-top: -5px;
+    /* margin-right: 39px; */
+    margin-right: 2px;
+    float: right;
+    width: 16%;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.corect {
+    margin-left: -25px;
+    margin-top: -35px;
+}
+.corect_1 {
+    margin-left: -25px;
+    margin-top: 15px;
+}
+
+.blue {
+    font-size: 11pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.green {
+    font-size: 9pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+
+
+}
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+.row {
+    margin-top: 25px;
+    width: 100%;
+    /* margin-right: 42px; */
+}
+	.jumbotron {
+	height: 397px;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.jumbotron h4 {
+    font-size: 16pt;
+    margin-left: 15px;
+}
+
+.iphone {
+    width: 170px;
+    padding-top: 0px;
+    /* margin-left: 0; */
+    margin-left: 0;
+    margin-right: 0px;
+    /* padding-right: 113px; */
+}
+.open_s{
+	font-size: 14pt;
+}
+.aver_b_ {
+    font-size: 11pt;
+}
+.aver_li {
+    font-size: 11pt;
+}
+
+.blue {
+    font-size: 12pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.green {
+    font-size: 12pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+header h1 {
+    font-size: 17.5pt;
+}
+header h3 {
+    font-size: 11pt;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 11pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 140px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+    margin-left: -150px;
+    padding-left: 5px;
+}
+img {
+    vertical-align: middle;
+    margin-top: -5px;
+    /* margin-right: 39px; */
+    margin-right: 2px;
+    float: right;
+    width: 16%;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.corect {
+    margin-left: -25px;
+    margin-top: -80px;
+}
+.corect_1 {
+    margin-left: -25px;
+    margin-top: 15px;
+}
+
+.marg {
+    margin-top: 60px;
+}
+
+
+}
+
+
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+@media screen and (min-width:1024px) {
+
+.row {
+    margin-top: 25px;
+    width: 100%;
+    /* margin-right: 42px; */
+}
+	.jumbotron {
+	height: 397px;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16pt;
+    font-weight: 200;
+}
+.jumbotron h4 {
+    font-size: 20pt;
+    margin-left: 15px;
+}
+
+.iphone {
+    width: 210px;
+    padding-top: 0px;
+    /* margin-left: 0; */
+    margin-left: 0;
+    margin-right: 0px;
+    /* padding-right: 113px; */
+}
+.open_s{
+	font-size: 14pt;
+}
+.aver_b_ {
+    font-size: 16pt;
+}
+.aver_li {
+    font-size: 16pt;
+}
+
+.blue {
+    font-size: 16pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.green {
+    font-size: 16pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+header h1 {
+    font-size: 24.5pt;
+}
+header h3 {
+    font-size: 14pt;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 11pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 140px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+    margin-left: -150px;
+    padding-left: 5px;
+}
+img {
+    vertical-align: middle;
+    margin-top: -10px;
+    /* margin-right: 39px; */
+    margin-right: 2px;
+    float: right;
+    width: 15%;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.corect {
+    margin-left: -60px;
+    margin-top: -105px;
+}
+.corect_1 {
+    margin-left: -60px;
+    margin-top: 30px;
+}
+
+.marg {
+    margin-top: 60px;
+}
+
+
+}
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+
+
+@media screen and (min-width: 1340px) {
+.jumbotron {
+	height: 397px;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+.row {
+	margin-top: 40px;
+	width: 100%;
+}
+.iphone {
+    width: 260px;
+    padding-top: 30px;
+    /* margin-left: 0; */
+    margin-left: 50px;
+    margin-right: 0px;
+    /* padding-right: 113px; */
+}
+.open_s{
+	font-size: 14pt;
+}
+.aver_b {
+	font-size: 24pt;
+	margin-bottom: 40px;
+}
+.aver_b_ {
+	font-size: 16pt;
+}
+.blue {
+    font-size: 20pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+header h1{
+	font-size: 28pt;
+}
+header h3{
+	font-size: 16pt;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 14pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+    margin-left: -150px;
+    padding-left: 5px;
+}
+img {
+    vertical-align: middle;
+    margin-top: -11px;
+    /* margin-right: 39px; */
+    margin-right: -13px;
+    float: right;
+    width: 10%;
+}
+.aver_li{
+	font-size: 16pt;
+}
+.corect{
+    margin-left: -100px;
+    margin-top: -160px;
+}
+.corect_1{
+    margin-left: -100px;
+    margin-top: 0px;
+}
+.jumbotron h4 {
+    font-size: 24pt;
+    margin-left: 15px;
+}
+
+.green {
+    font-size: 20pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+}
+
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+
+
+@media screen and (min-width: 1440px) {
+.jumbotron {
+	height: 397px;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+.row {
+	margin-top: 40px;
+	width: 100%;
+}
+.iphone {
+    width: 260px;
+    padding-top: 30px;
+    /* margin-left: 0; */
+    margin-left: 50px;
+    margin-right: 0px;
+    /* padding-right: 113px; */
+}
+.open_s{
+	font-size: 14pt;
+}
+.aver_b {
+	font-size: 24pt;
+	margin-bottom: 40px;
+}
+.aver_b_ {
+	font-size: 16pt;
+}
+.blue {
+    font-size: 20pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+header h1{
+	font-size: 28pt;
+}
+header h3{
+	font-size: 16pt;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 14pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+    margin-left: -150px;
+    padding-left: 5px;
+}
+img {
+    vertical-align: middle;
+    margin-top: -11px;
+    /* margin-right: 39px; */
+    margin-right: -5px;
+    float: right;
+    width: 10%;
+}
+.aver_li{
+	font-size: 16pt;
+}
+.corect {
+    margin-left: -100px;
+    margin-top: -140px;
+}
+.corect_1{
+    margin-left: -100px;
+    margin-top: 0px;
+}
+.jumbotron h4 {
+    font-size: 24pt;
+    margin-left: 15px;
+}
+
+.green {
+    font-size: 20pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+}
+
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*---------------------------------*/
+
+
+
+@media screen and (min-width: 1920px) {
+.jumbotron {
+	height: 397px;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 22pt;
+    font-weight: 200;
+}
+.jumbotron h4 {
+    font-size: 28pt;
+    margin-left: 15px;
+}
+.row {
+	margin-top: 40px;
+	width: 100%;
+}
+.iphone {
+    width: 350px;
+    padding-top: 30px;
+    /* margin-left: 0; */
+    margin-left: 50px;
+    margin-right: 0px;
+    /* padding-right: 113px; */
+}
+.open_s{
+	font-size: 14pt;
+}
+.aver_b {
+    font-size: 24pt;
+    margin-bottom: 60px;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 100px;
+}
+.aver_b_ {
+    font-size: 22pt;
+}
+.blue {
+    font-size: 24pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+header h1{
+	font-size: 40pt;
+}
+header h3{
+	font-size: 24pt;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18pt;
+    line-height: 1.3333333;
+    border-radius: 0;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+    margin-left: -150px;
+    padding-left: 5px;
+}
+img {
+    vertical-align: middle;
+    margin-top: -11px;
+    /* margin-right: 39px; */
+    margin-right: -5px;
+    float: right;
+    width: 10%;
+}
+.aver_li {
+    font-size: 22pt;
+}
+.corect {
+    margin-left: -210px;
+    margin-top: -10px;
+}
+.corect_1{
+    margin-left: -210px;
+    margin-top: 0px;
+}
+
+
+.green {
+    font-size: 20pt;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+}
+
+
+
+input[type="checkbox"] {
+ display:none;
+ }
+ input[type="checkbox"] + label span {
+ display:inline-block;
+ width:18px;
+ height:18px;
+ margin:-1px 4px 0 0;
+ vertical-align:middle;
+ background:url(check.png) left top no-repeat;
+ cursor:pointer;
+ }
+ input[type="checkbox"]:checked + label span {
+ background:url(check1.png) -19px top no-repeat;
+ }
